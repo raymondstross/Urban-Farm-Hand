@@ -1,0 +1,18 @@
+{
+  "name": "urban-farm-hand",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A modular urban gardening web app with independently organized services.",
+  "scripts": {
+    "dev": "node -e \"eval(require('fs').readFileSync('scripts/dev-server.js','utf8'))\"",
+    "start": "node -e \"eval(require('fs').readFileSync('scripts/dev-server.js','utf8'))\""
+  },
+  "keywords": [
+    "urban-farming",
+    "gardening",
+    "plants",
+    "calendar",
+    "notes"
+  ],
+  "license": "UNLICENSED"
+}

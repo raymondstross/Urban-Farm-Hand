@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Urban Farm Hand</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="site-header">
+        <a class="brand" href="#plants" aria-label="Urban Farm Hand home">
+          <span class="brand-mark">UFH</span>
+          <span>
+            <strong>Urban Farm Hand</strong>
+            <small>Plan, learn, grow</small>
+          </span>
+        </a>
+        <nav id="service-nav" class="service-nav" aria-label="Services"></nav>
+      </header>
+
+      <main id="app" class="app-main" tabindex="-1"></main>
+    </div>
+
+    <template id="empty-state-template">
+      <section class="empty-state">
+        <h2></h2>
+        <p></p>
+      </section>
+    </template>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
